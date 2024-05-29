@@ -1,0 +1,36 @@
+.body{
+    margin: 0px;
+}
+
+.main-con{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-head{
+    font-size: 40px;
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+.counter{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.increase-button,.decrease-button{
+    font-family: 'Courier';
+    font-size: 30px;
+    border-radius: 10px;
+    border-width: 1px;
+    height: 60px;
+    width: 200px;
+    background-color: cadetblue;
+    border-style: solid;
+    font-weight: bold;
+    margin: 10px;
+}
